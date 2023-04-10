@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainer Education Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!---------------------------------- HEADER -------------------------------------->
+    <header>
+        <div id="logo">
+            <img src="https://imgur.com/lb8ZZbR.png" width="40" alt="logo" />
+            <h6>BRAINER<br>EDUCATION</h6>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skillpath">Jalur Belajar</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <div class="nav-btn">
+                    <button id="blue">Masuk</button>
+                    <button id="white">Daftar</button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!---------------------------------- HOME -------------------------------------->
+        <section id="hero">
+            <div id="hero-greeting">
+                <h1>Greeting <span id="span1">Quality</span> <br> <span id="span2">Education</span> Is Now <br> <span
+                        id="span3">Easier</span></h1>
+                <div class="hero-btn">
+                    <button id="biru">Mulai Sekarang</button>
+                    <button id="putih">Lihat Video</button>
+                </div>
+            </div>
+
+            <div class="hero-img">
+                <img src="https://imgur.com/dfcLyy0.png" width="550" alt="Banner" />
+            </div>
+        </section>
+
+        <!---------------------------------- ABOUT -------------------------------------->
+        <section id="about">
+            <div id="about-img">
+                <img src="https://imgur.com/YVToZ1e.jpg" width="540" alt="About us page" />
+            </div>
+
+            <div id="about-desc">
+                <p id="hallo">Hi, Brainers!</p>
+                <h6>&nbsp; Tentang</h6>
+                <p id="description">Brainer Education adalah web berfokus dibidang pembelajaran gratis dan berbayar
+                    dengan metode online. Menawarkan video belajar dan latihan yang dapat memudahkan pembelajaran para
+                    penggunanya. Melalui platform ini kita bisa belajar tanpa
+                    ketinggalan dan bisa menuntunkan minat yang diinginkan.</p>
+            </div>
+        </section>
+
+        <!---------------------------------- SKILLPATH ---------------------------------->
+        <section id="skillpath">
+            <h6>&nbsp; Jalur Belajar</h6>
+            <div class="card-path">
+                <div class="path">
+                    <div class="card">
+                        <img src="https://imgur.com/s7ntbRX.png" width="250" alt="Ekonomi" />
+                        <p class="judul"><b>Ekonomi</b></p>
+                        <p> Jalur ini meliputi kuliah di jurusan ekonomi atau bisnis di perguruan tinggi. Di sini, Anda
+                            akan mempelajari berbagai konsep ekonomi, termasuk teori ekonomi, kebijakan moneter,
+                            kebijakan fiskal, dan sebagainya.</p>
+                    </div>
+                </div>
+                <div class="path">
+                    <div class="card">
+                        <img src="https://imgur.com/DbKQpAn.png" width="250" alt="Bahasa" />
+                        <p class="judul"><b>Bahasa</b></p>
+                        <p> Jalur ini meliputi belajar bahasa Inggris di sekolah atau perguruan tinggi. Di sini, Anda
+                            akan mempelajari keterampilan dasar bahasa Inggris, seperti kosa kata, tata bahasa, membaca,
+                            menulis, mendengarkan, dan berbicara.</p>
+                    </div>
+                </div>
+                <div class="path">
+                    <div class="card">
+                        <img src="https://imgur.com/0scZlWx.png" width="250" alt="Programming" />
+                        <p class="judul"><b>Programming</b></p>
+                        <p> Jalur ini meliputi kuliah di jurusan Ilmu Komputer atau Teknik Informatika di perguruan
+                            tinggi. Di sini, Anda akan mempelajari konsep dasar pemrograman, algoritma, struktur data,
+                            dan bahasa pemrograman.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------------------------------- CONTACT -------------------------------------->
+        <section id="contact">
+            <div id="isi-form">
+                <div id="judul-cont">
+                    <h6>Kontak</h6>
+                </div>
+                <form id="form-cont">
+                    <div class="detail-form">
+                        <label for="fname">Nama Akhir :</label>
+                        <input type="text" id="fname" name="fname" placeholder="Tulis nama awal anda.." /> <label
+                            for="lname">&nbsp;Nama Akhir :</label>
+                        <input type="text" id="lname" name="lname" placeholder="Tulis nama akhir anda.." /><br><br>
+                    </div>
+                    <div class="detail-form">
+                        <label for="city">Kota :</label>
+                        <input type="text" id="city" name="city" placeholder="Tulis kota asal anda.." /> <label
+                            for="email">&nbsp;Email :</label>
+                        <input type="text" id="email" name="email" placeholder="Tulis email anda.." /><br><br>
+                    </div>
+                    <div class="detail-form">
+                        <label for="zip">Kode Pos :</label>
+                        <input type="number" id="zipcode" name="zip"
+                            placeholder="Tulis kode pos anda (Contoh : 13720) " /> <label for="no-hp">&nbsp;Nomor
+                            Telepon :</label>
+                        <input type="number" id="nohp" name="no-hp"
+                            placeholder="Tulis nomor telepon anda (+62) " /><br><br>
+                    </div>
+                    <div class="detail-form">
+                        <p>Pesan :</p><br>
+                        <textarea rows="10" cols="120" id="pesan" name="pengalaman"
+                            placeholder="Tulis jawaban Anda di sini.."></textarea>
+                    </div>
+
+                    <div id="confirm">
+                        <input type="checkbox" id="status" name="confirm-data">
+                        <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan
+                            telah sesuai</label>
+                    </div>
+                    <div id="cont-btn">
+                        <button id="submit-form" type="submit">Submit</button>
+                    </div>
+                    <div id="warning">
+                        <!--<p><b>Peringatan!</b> &emsp; Pastikan data anda sudah terisi dengan benar. </p>-->
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!------------------------------- SOCIAL MEDIA ------------------------------------>
+        <section id="social-media">
+            <div id="media">
+                <img src="https://imgur.com/vQMhslK.png" width="250" alt="logo" />
+                <p>Unduh aplikasi dengan cara klik dibawah ini : </p> <br>
+                <div id="media-img">
+                    <img src="https://imgur.com/QW9Y1Im.png" width="150" alt="googleplay" />
+                    <img src="https://imgur.com/8xLOoAY.png" width="150" alt="appstore" />
+                </div>
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <h6>Halaman</h6>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Tentang</a></li>
+                    <li><a href="#">Jalur Belajar</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+                <ul>
+                    <h6>Jalur Belajar</h6>
+                    <li><a href="#">Ekonomi</a></li>
+                    <li><a href="#">Bahasa</a></li>
+                    <li><a href="#">Programming</a></li>
+                </ul>
+                <ul>
+                    <h6>Kontak</h6>
+                    <li><a href="#">(406) 555-0120</a></li>
+                    <li><a href="#">brainereducation@gmail.com</a></li>
+                    <li><a href="#">Jakarta Indonesia</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+<!---------------------------------- FOOTER -------------------------------------->
+<footer>
+    <p>Copyright2023BrainerEducation</p>
+</footer>
+
+</html>
