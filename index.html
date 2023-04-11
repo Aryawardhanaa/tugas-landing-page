@@ -56,7 +56,7 @@
 
             <div id="about-desc">
                 <p id="hallo">Hi, Brainers!</p>
-                <h6>&nbsp; Tentang</h6>
+                <h6> Tentang</h6>
                 <p id="description">Brainer Education adalah web berfokus dibidang pembelajaran gratis dan berbayar
                     dengan metode online. Menawarkan video belajar dan latihan yang dapat memudahkan pembelajaran para
                     penggunanya. Melalui platform ini kita bisa belajar tanpa
@@ -66,7 +66,7 @@
 
         <!---------------------------------- SKILLPATH ---------------------------------->
         <section id="skillpath">
-            <h6>&nbsp; Jalur Belajar</h6>
+            <h6><span style="margin-left: 10px;"> Jalur Belajar</span></h6>
             <div class="card-path">
                 <div class="path">
                     <div class="card">
@@ -100,31 +100,103 @@
 
         <!---------------------------------- CONTACT -------------------------------------->
         <section id="contact">
-            <div id="isi-form">
-                <div id="judul-cont">
-                    <h6>Kontak</h6>
-                </div>
+            <div id="isi-form" class="py-3">
+                <!-- <div id="judul-cont"> -->
+                <h1 style="display: flex; justify-content: center;" id="judul-cont">Kontak</h1>
+                <!-- </div> -->
                 <form id="form-cont">
-                    <div class="detail-form">
+                    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="2">
+                        <tr>
+                            <td for="fname" width="28%">
+                                <label for="fname">Nama Awal </label>
+                            </td>
+                            <td for="fname" width="3%">
+                                <p style="font-size: 11pt;">:</p>
+                            </td>
+                            <td for="fname" width="18%">
+                                <input type="text" id="fname" name="fname" placeholder="Tulis nama awal anda.." />
+                            </td>
+                            <td for="fname" width="1%"> </td>
+                            <td for="fname" width="28%">
+                                <label for="fname">Nama Akhir </label>
+                            </td>
+                            <td for="fname" width="3%">
+                                <p style="font-size: 11pt;">:</p>
+                            </td>
+                            <td for="fname" width="18%">
+                                <input type="text" id="fname" name="fname" placeholder="Tulis nama awal anda.." />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="font-size: 11pt">Kota</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 11pt;">:</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 11pt"> <input type="text" id="fname" name="fname"
+                                        placeholder="Tulis nama awal anda.." /></p>
+                            </td>
+                            <td for="fname" width="4%"> </td>
+
+                            <td>
+                                <p style="font-size: 11pt">Email</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 11pt;">:</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 11pt"> <input type="text" id="fname" name="fname"
+                                        placeholder="Tulis nama awal anda.." /></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="font-size: 11pt">Kode Pos</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 11pt;">:</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 11pt"> <input type="text" id="fname" name="fname"
+                                        placeholder="Tulis nama awal anda.." /></p>
+                            </td>
+                            <td for="fname" width="4%"> </td>
+
+                            <td>
+                                <p style="font-size: 11pt">Nomor Telepon</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 11pt;">:</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 11pt"> <input type="text" id="fname" name="fname"
+                                        placeholder="Tulis nama awal anda.." /></p>
+                            </td>
+                        </tr>
+
+                    </table>
+                    <!-- <div class="detail-form">
                         <label for="fname">Nama Akhir :</label>
                         <input type="text" id="fname" name="fname" placeholder="Tulis nama awal anda.." /> <label
-                            for="lname">&nbsp;Nama Akhir :</label>
+                            for="lname">Nama Akhir :</label>
                         <input type="text" id="lname" name="lname" placeholder="Tulis nama akhir anda.." /><br><br>
                     </div>
                     <div class="detail-form">
                         <label for="city">Kota :</label>
                         <input type="text" id="city" name="city" placeholder="Tulis kota asal anda.." /> <label
-                            for="email">&nbsp;Email :</label>
+                            for="email">Email :</label>
                         <input type="text" id="email" name="email" placeholder="Tulis email anda.." /><br><br>
                     </div>
                     <div class="detail-form">
                         <label for="zip">Kode Pos :</label>
                         <input type="number" id="zipcode" name="zip"
-                            placeholder="Tulis kode pos anda (Contoh : 13720) " /> <label for="no-hp">&nbsp;Nomor
+                            placeholder="Tulis kode pos anda (Contoh : 13720) " /> <label for="no-hp">Nomor
                             Telepon :</label>
                         <input type="number" id="nohp" name="no-hp"
                             placeholder="Tulis nomor telepon anda (+62) " /><br><br>
-                    </div>
+                    </div> -->
                     <div class="detail-form">
                         <p>Pesan :</p><br>
                         <textarea rows="10" cols="120" id="pesan" name="pengalaman"
@@ -143,6 +215,8 @@
                         <!--<p><b>Peringatan!</b> &emsp; Pastikan data anda sudah terisi dengan benar. </p>-->
                     </div>
                 </form>
+
+
             </div>
         </section>
 
